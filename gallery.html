@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get an idea if our company is a good fit for you. View before and after photos here."
+    />
+    <meta name="author" content="Meghan DuBois" />
+    <meta
+      name="keywords"
+      content="cleaning, cleaning service, portfolio, eco-friendly, natural, house cleaning, reviews, testimonials, gallery"
+    />
+    <script src="script.js"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Meg's Eco Cleaning - Gallery</title>
+ 
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>
+          <a href="index.html"
+            ><img id="logo" src="images/logo.png" alt="blue flower logo"
+          /></a>
+          &nbsp;
+          <a href="index.html">Meg's Eco Cleaning</a>
+        </h1>
+      </header>
+      <!-- nav>ul*4>a -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Image Gallery</h2>
+        <hr />
+    <div id="mainpic">
+      <img src="gallery/cleanpic1.jpeg" name="mainpic" height="300" />
+      <br />
+      <div id="picnum">Picture 1 of 6</div>
+      <a href="#" onclick="prevPic(event); " id="prev">Prev</a>
+      <a href="#" onclick="nextPic(event);" id="next">Next</a>
+    </div>
+    <div class="thumbnails">
+      <div class="thumbnail">
+        <img src="gallery/cleanpic1.jpeg" onclick="selectPic(0)" />
+      </div>
+      <div class="thumbnail">
+        <img src="gallery/cleanpic2.jpeg" onclick="selectPic(1)" />
+      </div>
+      <div class="thumbnail">
+        <img src="gallery/cleanpic3.jpeg" onclick="selectPic(2)" />
+      </div>
+      <div class="thumbnail">
+        <img src="gallery/cleanpic4.jpeg" onclick="selectPic(3)" />
+      </div>
+      <div class="thumbnail">
+        <img src="gallery/cleanpic5.jpeg" onclick="selectPic(4)" />
+      </div>
+      <div class="thumbnail">
+        <img src="gallery/cleanpic6.jpeg" onclick="selectPic(5)" />
+      </div>
+    </main>
+    </div>
+  </body>
+</html>
